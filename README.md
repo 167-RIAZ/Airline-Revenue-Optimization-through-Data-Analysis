@@ -58,8 +58,7 @@ Data was extracted from a SQLite relational database (`travel.sqlite`) and inclu
 ## 📊 Key Analyses & Visualizations
 
 ### ✅ 1. Aircraft Seating Capacity
-Identified aircrafts with more than 100 seats using SQL aggregation:
-```sql
+Identified aircraft with more than 100 seats using SQL aggregation:
 SELECT aircraft_code, COUNT(*) AS num_seats
 FROM seats
 GROUP BY aircraft_code
@@ -141,7 +140,7 @@ Estimated how revenue would increase if all aircraft improved occupancy by 10%.
 Passionate about solving business problems using data  
 📧 syed.riaz1406@gmail.com  
  
-🔗 [LinkedIn](https://linkedin.com/in/syedmdriaz)
+🔗 [LinkedIn]->https://linkedin.com/in/syedmdriaz
 
 ⸻
 
@@ -155,4 +154,5 @@ This project is open for academic, learning, and portfolio use only.
 
 If you found this project helpful or have suggestions, feel free to reach out or fork the repo. Collaboration is always welcome!
 
+---
 ---
