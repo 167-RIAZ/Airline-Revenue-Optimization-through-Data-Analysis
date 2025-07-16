@@ -57,7 +57,7 @@ Data was extracted from a SQLite relational database (`travel.sqlite`) and inclu
 ## 📊 Key Analyses & Visualizations
 
 ### ✅ 1. Aircraft Seating Capacity
-Identified aircrafts with more than 100 seats using SQL aggregation:
+Identified aircraft with more than 100 seats using SQL aggregation:
 ```sql
 SELECT aircraft_code, COUNT(*) AS num_seats
 FROM seats
