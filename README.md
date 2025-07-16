@@ -1,3 +1,4 @@
+
 # ✈️ Airlines Revenue Optimization – Data Analysis Project
 
 A comprehensive exploratory data analysis (EDA) project designed to help an airline optimize its profitability by evaluating occupancy rates, ticket pricing, and aircraft performance using real-world airline booking data.
@@ -57,7 +58,8 @@ Data was extracted from a SQLite relational database (`travel.sqlite`) and inclu
 ## 📊 Key Analyses & Visualizations
 
 ### ✅ 1. Aircraft Seating Capacity
-Identified aircraft with more than 100 seats using SQL aggregation:
+Identified aircrafts with more than 100 seats using SQL aggregation:
+```sql
 SELECT aircraft_code, COUNT(*) AS num_seats
 FROM seats
 GROUP BY aircraft_code
@@ -135,10 +137,11 @@ Estimated how revenue would increase if all aircraft improved occupancy by 10%.
 
 🙋‍♂️ About Me
 
-Syed Md Riaz
-A passionate data enthusiast with a keen interest in applying analytics to real-world business problems.
-📧 syed.riaz1406@gmail.com
-🔗 LinkedIn:www.linkedin.com/in/syed-md-riaz
+**Syed Md Riaz**  
+Passionate about solving business problems using data  
+📧 syed.riaz1406@gmail.com  
+ 
+🔗 [LinkedIn](https://linkedin.com/in/syedmdriaz)
 
 ⸻
 
